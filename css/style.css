@@ -1,0 +1,89 @@
+* {
+    font: 20px "SF Pro Text", san-serif;
+}
+
+body {
+    margin: 0;
+    background-color: #89A6FF;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+#navbar ul li {
+    float: right;
+}
+
+#navbar ul li a {
+    display: block;
+    color: #FCD17E;
+    text-align: center;
+    padding: 32px;
+    text-decoration: none;
+}
+
+#navbar ul li a:hover {
+    color: #FFFFFF;
+}
+
+#landing {
+    margin: 0 10% 0 10%;
+}
+
+#intro {
+    color: #FFFFFF;
+    width: 75%;
+}
+
+#intro h1 {
+    font-size: 8em;
+    margin: 0;
+}
+
+#intro h2 {
+    font-size: 3.5em;
+    margin: -0.2em 0 0 0;
+}
+
+#intro h2::after {
+    content: "🤙🏼";
+    display: inline-block;
+    -webkit-transform: rotate(-40deg);
+    -moz-transform: rotate(-40deg);
+    -o-transform: rotate(-40deg);
+    -ms-transform: rotate(-40deg);
+    transform: rotate(-40deg);
+    transition: 0.35s;
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+}
+
+#intro h2:hover::after {
+    transition: 0.35s;
+    -webkit-transition: 0.35s;
+    -moz-transition: 0.35s;
+    -ms-transition: 0.35s;
+    -o-transition: 0.35s;
+    -webkit-transform: rotate(40deg);
+    -moz-transform: rotate(40deg);
+    -o-transform: rotate(40deg);
+    -ms-transform: rotate(40deg);
+    transform: rotate(40deg);
+}
+
+#intro p {
+    font-size: 1.3em;
+    margin: 1.5em 0 0 0;
+}
+
+#intro p span {
+    font-size: 1em;
+    color: #FCD17E;
+    font-style: italic;
+}
